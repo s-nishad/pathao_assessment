@@ -32,7 +32,7 @@
    
 ## END points are:
   
-Post request to create user: http://localhost:8000/users/
+Post request to create user: http://localhost:8000/users
 
 Get request with id to get a user: http://localhost:8000/users/1
 

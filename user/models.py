@@ -21,4 +21,4 @@ class UserTag(models.Model):
         unique_together = ('user', 'tag')
 
     def __str__(self):
-        return self.user
+        return self.tag

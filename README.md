@@ -37,7 +37,11 @@ Post request to create user: http://localhost:8000/users
 Get request with id to get a user: http://localhost:8000/users/1
 
 Post request to add tag with user id, tag name and expiry: http://localhost:8000/users/1/tags
-[use swagger to input tag]
+as json format:
+`{
+"tags": ["abc", "xyz"], 
+"expiry": 86400000 \\ as miliseconds
+}`
 
 Get user by tag: http://localhost:8000/users/?tags=abc,xyz
 

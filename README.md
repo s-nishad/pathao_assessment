@@ -37,7 +37,8 @@ Post request to create user: http://localhost:8000/users/
 Get request with id to get a user: http://localhost:8000/users/1
 
 Post request to add tag with user id, tag name and expiry: http://localhost:8000/users/1/tags
+[use swagger to input tag]
 
-Get user by tag: http://localhost:8000/user/?tags=python
+Get user by tag: http://localhost:8000/user/?tags=abc,xyz
 
 ## Swagger link for all api: http://localhost:8000/docs/

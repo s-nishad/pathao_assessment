@@ -28,3 +28,7 @@ class UserTagSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserTag
         fields = ['tags', 'expiry']
+
+
+class UserQuerySerializer(serializers.Serializer):
+    tags = serializers.CharField(help_text="Comma-separated list of tags", required=True)

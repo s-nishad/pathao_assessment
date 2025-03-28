@@ -2,6 +2,8 @@ from django.urls import path
 # from .views import CreateUserView, RetrieveUserView, AddUserTagsView, GetUsersByTagsView, UserOperation
 from .views import RetrieveUserView, AddUserTagsView, UserOperation
 
+# app_name = user
+
 urlpatterns = [
     path('users', UserOperation.as_view(), name='create-user'),
     path('users/<int:id>', RetrieveUserView.as_view(), name='get-user'),
